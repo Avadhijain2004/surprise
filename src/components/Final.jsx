@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import pic from './../assets/pic.jpeg'
 
 export default function Final() {
   return (
@@ -28,6 +29,10 @@ export default function Final() {
           to have a special friend like you. You make every moment beautiful! 💖
         </p>
       </motion.div>
+      <div>
+        <img src={pic} alt="" width={200} height={200} className="mt-10 rounded-md"/>
+        <p className="text-black font-semibold">Le tere liye bhi rose 💖</p>
+      </div>
     </div>
   );
 }
